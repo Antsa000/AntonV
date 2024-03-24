@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anton verkkosivu</title>
+    <style>
+        body {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #header {
+            background-color: lightblue;
+            padding: 20px;
+        }
+
+        #nav {
+            background-color: lightgreen;
+            padding: 15px;
+        }
+
+        #vertical_nav {
+            float: left;
+            width: 20%;
+            background-color: lightgray; 
+        }
+
+        #vertical_nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #vertical_nav li {
+            margin-bottom: 10px;
+        }
+
+        #vertical_nav a:hover {
+            color: red;
+        }
+
+        #section {
+            margin-left: 22%;
+            padding: 20px;
+            background-color: white; 
+        }
+
+        #nav a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Anton verkkosivu</h1>
+    </div>
+    <div id="nav">
+        <a href="https://www.google.com" target="_blank">Google</a> |
+        <a href="https://www.yle.fi" target="_blank">Yle</a> |
+        <a href="third.html">Kotisivu</a> |
+    </div>
+    <div id="vertical_nav">
+        <ul>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://www.yle.fi" target="_blank">Yle</a></li>
+            <li><a href="third.html">Kotisivu</a></li>
+        </ul>
+    </div>
+    <div id="section">
+        <h2>Anton Virkki verkkosivu</h2>
+        <p>Tässä on mun verkkosivu.</p>
+        <p>En tiedä mitä tähän kirjoittaisi, jotain sisältöä vain verkkosivulle. En ihan täysin ymmärtänyt tehtävänantoa/osannut hoitaa tehtävää, mutta yritin jotain saada tehtyä.</p>
+    </div>
+</body>
+</html>
